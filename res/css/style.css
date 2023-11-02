@@ -10,8 +10,9 @@
 }
 
 body {
-  background-image: url("../img/giphy.gif");
+  background-image: url("../img/cotton-field.jpg");
   background-size: cover;
+ 
 }
 
 #wrapper {
@@ -19,14 +20,15 @@ body {
   margin: 0 auto;
   margin-top: 7em;
   font-family: Kanit;
+  cursor: url("../img/whip.png"), auto;
 }
 
 #cookie {
-  max-width: 130px;
+  max-width: 300px;
   width: 100%;
   display: table;
   margin: 0 auto;
-  cursor: url("res/img/bic-removebg-preview.png");
+  
   transition: .3s ease;
 }
 
@@ -37,11 +39,45 @@ body {
 #counter {
   font-size: 42px;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 5px;
   transition: .2s ease;
   cursor: pointer;
+  width: 250px;
+  background-color: aliceblue;
 }
 
 #counter:hover {
   transform: scale(1.1);
+}
+
+#upgrade {
+  width: 120px;
+  height: 70px;
+  font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ 
+#autoclick {
+  width: 120px;
+  height: 70px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.celkem  {
+  display: flex;
+  flex-direction: row;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.div1 , .div2 {
+  align-items: center;
+  height: 500px;
+  display: flex;
 }
