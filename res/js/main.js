@@ -32,9 +32,9 @@ autoclick.onclick = () => {
         
         numberOfCookies -= autoclickPrice;
 
-        autoclickPrice *=1.2;
+        autoclickPrice *=1.8;
 
-        counter.innerText = "Bavlny v kg : " + Math.round(numberOfCookies);
+        counter.innerText = "NEGR v kg : " + Math.round(numberOfCookies);
 
         autoclick.innerText = "Autoclicker " + Math.round (autoclickPrice);
 
